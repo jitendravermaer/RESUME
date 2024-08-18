@@ -1,0 +1,166 @@
+/* Base Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: #f4f4f9;
+    color: #333;
+    line-height: 1.6;
+    font-size: 16px;
+}
+
+a {
+    text-decoration: none;
+    color: #3498db;
+}
+
+a:hover {
+    color: #2980b9;
+}
+
+/* Header */
+header {
+    background: #2c3e50;
+    color: #ecf0f1;
+    padding: 1rem 0;
+    position: relative;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+.profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.profile-img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border: 5px solid #ecf0f1;
+    margin-bottom: 1rem;
+}
+
+header h1 {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+header p {
+    margin: 0.5rem 0;
+}
+
+#menu-toggle {
+    display: none;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+nav a {
+    color: #ecf0f1;
+    margin: 0 1rem;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #3498db;
+}
+
+/* Responsive Navigation */
+@media (max-width: 768px) {
+    #menu-toggle {
+        display: block;
+        background: #3498db;
+        color: #fff;
+        border: none;
+        padding: 1rem;
+        cursor: pointer;
+    }
+
+    nav {
+        display: none;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav.active {
+        display: flex;
+    }
+
+    nav a {
+        margin: 1rem 0;
+    }
+}
+
+/* Sections */
+section {
+    padding: 2rem 0;
+}
+
+h2 {
+    font-size: 1.8rem;
+    color: #2c3e50;
+    border-bottom: 2px solid #3498db;
+    padding-bottom: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.section p {
+    margin-bottom: 1rem;
+}
+
+ul {
+    list-style-type: disc;
+    margin-left: 2rem;
+}
+
+ul li {
+    margin-bottom: 0.5rem;
+}
+
+/* Reveal Effect */
+.reveal {
+    opacity: 0;
+    transition: opacity 0.6s ease-in-out;
+}
+
+.reveal.visible {
+    opacity: 1;
+}
+
+/* Footer */
+footer {
+    background: #2c3e50;
+    color: #ecf0f1;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 2rem;
+}
+
+footer p {
+    margin: 0;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .container {
+        width: 95%;
+        padding: 0;
+    }
+}
