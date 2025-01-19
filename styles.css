@@ -256,7 +256,64 @@ footer {
     font-size: 0.9rem;
     transition: background-color 0.3s ease;
   }
-  
+
+.training-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f9f9f9;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+    margin-bottom: 2rem;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.training-item:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+.training-details {
+    flex: 1;
+    max-width: 60%;
+}
+
+.training-details h3 {
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: #2980b9;
+    margin-bottom: 0.8rem;
+}
+
+.training-details .organization {
+    font-size: 1.2rem;
+    color: #7f8c8d;
+    margin-bottom: 0.6rem;
+}
+
+.training-details .date {
+    font-size: 1rem;
+    color: #7f8c8d;
+    margin-bottom: 1rem;
+}
+
+.training-details .certificate {
+    font-size: 1rem;
+    color: #7f8c8d;
+}
+
+.training-preview {
+    max-width: 30%;
+}
+
+.training-img {
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+    object-fit: cover;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+}
   .training-item a:hover {
     background-color: #2980b9;
   }
