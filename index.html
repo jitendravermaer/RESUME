@@ -6,66 +6,87 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jitendra Verma - Resume</title>
     <link rel="stylesheet" href="styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&family=Montserrat:wght@500;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 
 <body>
     <header>
         <div class="container">
             <div class="profile">
-                <img src="DSC_2045.JPG" alt="Jitendra Verma" class="profile-img">
+                <img src="profile.JPG" alt="Jitendra Verma" class="profile-img">
                 <h1>Jitendra Verma</h1>
-                <p>Bambori, Sawai-Madhopur, Rajasthan</p>
-                <p>Contact No: +91 8118834830 | Email: jitendrasewaliya6@gmail.com</p>
-                <p><a href="https://github.com/jitendravermaer" target="_blank">Github: jitendravermaer</a> | <a
-                        href="https://www.linkedin.com/in/jitendra-verma-a6606923b" target="_blank">LinkedIn:
-                        jitendra-verma-a6606923b</a></p>
+                <p class="tagline">Aspiring Software Developer | Java & Python Enthusiast</p>
+                <div class="contact-info">
+                    <p><i class="fas fa-map-marker-alt"></i> Bambori, Sawai-Madhopur, Rajasthan</p>
+                    <p><i class="fas fa-phone-alt"></i> +91 8118834830 </p>
+                    <p><i class="fas fa-envelope"></i> <a
+                            href="mailto:jitendrasewaliya6@gmail.com">jitendrasewaliya6@gmail.com</a></p>
+                    <p><i class="fab fa-github"></i> <a href="https://github.com/jitendravermaer"
+                            target="_blank">jitendravermaer</a></p>
+                    <p><i class="fab fa-linkedin"></i> <a href="https://www.linkedin.com/in/jitendra-verma-a6606923b"
+                            target="_blank">jitendra-verma-a6606923b</a></p>
+                </div>
             </div>
         </div>
     </header>
 
     <nav>
         <div class="container">
-            <a href="#academic-qualification">Academic Qualification</a>
-            <a href="#professional-experience">Professional Experience</a>
-            <a href="#skills">Skills</a>
-            <a href="#training">Training & Certifications</a>
-            <a href="#projects">Projects</a>
+            <a href="#career-objective" class="nav-link">Objective</a>
+            <a href="#academic-qualification" class="nav-link">Education</a>
+            <a href="#professional-experience" class="nav-link">Experience</a>
+            <a href="#skills" class="nav-link">Skills</a>
+            <a href="#training" class="nav-link">Training</a>
+            <a href="#projects" class="nav-link">Projects</a>
         </div>
     </nav>
 
     <main class="content">
         <div class="container">
+            <section id="career-objective" class="section">
+                <h2>Career Objective</h2>
+                <p>To work in a professionally managed organization where I get sufficient opportunities to learn, grow
+                    and contribute in a team oriented and growth focused work environment.</p>
+            </section>
+
             <section id="academic-qualification" class="section">
                 <h2>Academic Qualification</h2>
                 <ul>
-                    <li><strong>B.Tech (Computer Science):</strong> Maintained an 8.5+ CGPA (till date), Modi Institute
-                        of Technology, Kota (2021-2025)</li>
-                    <li><strong>Intermediate (12th):</strong> Scored 81.8%, LBS School, Kota (2020-21)</li>
+                    <li><strong>B.Tech (Computer Science & Engineering):</strong> Secured 8.5+ CGPA, Modi Institute of
+                        Technology, Kota (2021-2025)</li>
+                    <li><strong>Intermediate (12th):</strong> Secured 81.8%, LBS School, Kota (2020-21)</li>
                     <li><strong>Matriculation (10th):</strong> Secured 82.8%, LBS School, Kota (2018-19)</li>
                 </ul>
             </section>
 
             <section id="professional-experience" class="section">
                 <h2>Professional Experience</h2>
-                <div class="experience-item">
+                <div class="experience-item card">
                     <h3>Intern - GIP Technologies Pvt. Ltd.</h3>
-                    <p class="date">10/08/2023 - 08/11/2023</p>
+                    <p class="date"><i class="far fa-calendar-alt"></i> 10/08/2023 - 08/11/2023</p>
                     <ul>
-                        <li>Learned Python programming and explored libraries such as pandas and Flask/Django
-                            frameworks.</li>
-                        <li>Worked on database integration using SQL and completed several projects during the
-                            internship.</li>
+                        <li>Learned Python programming and explored libraries.</li>
+                        <li>Worked on database integration and completed projects using frameworks like Flask and
+                            Django.</li>
                     </ul>
                 </div>
-                <div class="experience-item">
-                    <h3>System Support Specialist: Login Agent - L&T Finance</h3>
-                    <p class="date">01/08/2024 - 07/11/2024</p>
+                <div class="experience-item card">
+                    <h3>System Support Specialist, Login Agent, Senior Customer Care Executive - L&T Finance</h3>
+                    <p class="date"><i class="far fa-calendar-alt"></i> 01/08/2024 - 07/11/2024</p>
                     <ul>
-                        <li>Managed technical assistance and troubleshooting for systems.</li>
-                        <li>Oversaw user access security and system logins as a Login Agent.</li>
-                        <li>Acted as a Customer Care Executive, addressing inquiries and ensuring client satisfaction.
-                        </li>
+                        <li>Managed technical assistance and troubleshooting.</li>
+                        <li>Oversaw user access and security.</li>
+                        <li>Handled customer inquiries and ensured satisfaction.</li>
+                    </ul>
+                </div>
+                <div class="experience-item card">
+                    <h3>Java Development Intern - Cognifyz Technologies (Virtual)</h3>
+                    <p class="date"><i class="far fa-calendar-alt"></i> 08/01/2025 - 08/02/2025</p>
+                    <ul>
+                        <li>Gained experience in Java development in a virtual environment.</li>
                     </ul>
                 </div>
             </section>
@@ -73,37 +94,32 @@
             <section id="skills" class="section">
                 <h2>Skills and Interests</h2>
                 <div class="skills-grid">
-                    <div class="skill-category">
-                        <h3>Programming Languages</h3>
+                    <div class="skill-category card">
+                        <h3><i class="fas fa-code"></i> Programming Languages</h3>
                         <ul>
-                            <li>C: Proficient in procedural programming and understanding of memory management.</li>
-                            <li>C++: Experienced with object-oriented programming, STL, and algorithmic implementation.
-                            </li>
-                            <li>Java: Knowledgeable in core Java concepts, including OOP principles and exception
-                                handling.</li>
-                            <li>Python: Skilled in scripting, automation, and developing web applications and data
-                                analysis.</li>
+                            <li>C</li>
+                            <li>C++</li>
+                            <li>Java</li>
+                            <li>Python</li>
                         </ul>
                     </div>
-                    <div class="skill-category">
-                        <h3>Web Technologies</h3>
+                    <div class="skill-category card">
+                        <h3><i class="fas fa-globe"></i> Web Technologies </h3>
                         <ul>
-                            <li>HTML/CSS: Strong understanding of web page structure, styling, and responsive design
-                                principles.</li>
-                            <li>JavaScript: Basic knowledge, currently improving through projects and tutorials.
-                                Enhancing front-end development skills.</li>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>JavaScript</li>
                         </ul>
                     </div>
-                    <div class="skill-category">
-                        <h3>Frameworks and Libraries</h3>
+                    <div class="skill-category card">
+                        <h3><i class="fas fa-cube"></i> Frameworks</h3>
                         <ul>
-                            <li>Django: Experienced in building and deploying scalable web applications with Django's
-                                ORM and templating system.</li>
-                            <li>Flask: Proficient in creating lightweight and modular web applications using Flask.</li>
+                            <li>Django</li>
+                            <li>Flask</li>
                         </ul>
                     </div>
-                    <div class="skill-category">
-                        <h3>Database Skills</h3>
+                    <div class="skill-category card">
+                        <h3><i class="fas fa-database"></i> Database Skills</h3>
                         <ul>
                             <li>Database Management Systems (DBMS): MySQL, SQL Server, SQLite</li>
                             <li>Query Languages: SQL (CRUD operations, Joins, Subqueries, and Performance Optimization)
@@ -111,16 +127,15 @@
                             <li>Database Design: Normalization, ER Diagrams</li>
                         </ul>
                     </div>
-                    <div class="skill-category">
-                        <h3>Operating Systems</h3>
+                    <div class="skill-category card">
+                        <h3><i class="fas fa-laptop-code"></i> Operating Systems</h3>
                         <ul>
-                            <li>Windows: Experienced with Windows 7, 10, 11.</li>
-                            <li>Linux: Practical knowledge of Linux commands and environment for development and server
-                                management.</li>
+                            <li>Windows 7, 10, 11</li>
+                            <li>Linux</li>
                         </ul>
                     </div>
-                    <div class="skill-category">
-                        <h3>Computer Networking</h3>
+                    <div class="skill-category card">
+                        <h3><i class="fas fa-network-wired"></i> Computer Networking</h3>
                         <ul>
                             <li>Basic understanding of networking concepts such as IP addressing, DNS, and HTTP
                                 protocols.</li>
@@ -132,215 +147,224 @@
             <section id="training" class="section">
                 <h2>Training & Certifications</h2>
 
-                <div class="training-item">
+                <div class="training-item card">
                     <div class="training-details">
-                    <h3>Software Development Internship</h3>
-                    <p><strong>Cognifyz Technologies</strong></p>
-                    <p class="date">Starting from January 8th, 2025</p>
-                    <ul>
-                        <li>Selected for the position of Software Development Intern</li>
-                        <li>Will work on various projects related to software development</li>
-                        <li>Tasks include coding, testing, and maintaining software solutions</li>
-                    </ul>
-                    <p><a href="CERTIFICATE\Jitendra Verma SDI OL.pdf" target="_blank">View Offer Letter</a></p>
-                </div>
-                <div class="training-preview">
-                        <img src="CERTIFICATE\.jpg" alt="Training Preview"
-                            class="training-img">
-                    </div></div>
-
-                <div class="training-item">
-                    <div class="training-details">
-                    <h3>Java Development Internship</h3>
-                    <p><strong>Cognifyz Technologies</strong></p>
-                    <p class="date">08/01/2025 - 08/02/2025</p>
-                    <ul>
-                        <li>Selected for the position of Java Development Intern</li>
-                        <li>Will develop robust and scalable applications</li>
-                        <li>Will contribute to the design and implementation of software solutions</li>
-                    </ul>
-                    <div style="display: flex; gap: 20px;">
-                        <p><a href="CERTIFICATE\Jitendra Verma JDI OL.pdf" target="_blank">View Offer Letter</a></p>
-                        <p><a href="CERTIFICATE\Jitendra Verma JDI OL.pdf" target="_blank">View Certificate</a></p>
-                    </div>
-                </div>
-                <div class="training-preview">
-                        <img src="CERTIFICATE\.jpg" alt="Training Preview" class="training-img">
-                        <img src="CERTIFICATE\.jpg" alt="Training Preview" class="training-img">
-                    </div></div>
-
-                <div class="training-item">
-                    <div class="training-details">
-                    <h3>Solutions Architecture Job Simulation</h3>
-                    <p><strong>Forage</strong></p>
-                    <p class="date">Completed: January 18th, 2025</p>
-                    <ul>
-                        <li>Designing a simple, scalable, hosting architecture</li>
-                    </ul>
-                    <p>Enrolment Verification Code: JsrnJLoRhGyZh6ay6</p>
-                    <p><a href="CERTIFICATE\Solutions Architecture Job Simulation AWS.pdf" target="_blank">Verify Certificate</a></p>
-                </div>
-                <div class="training-preview">
-                        <img src="CERTIFICATE\.jpg" alt="Training Preview"
-                            class="training-img">
-                    </div></div>
-
-                <div class="training-item">
-                    <div class="training-details">
-                    <h3>Data Visualisation: Empowering Business with Effective Insights</h3>
-                    <p><strong>Forage</strong></p>
-                    <p class="date">Completed: January 17th, 2025</p>
-                    <ul>
-                        <li>Framing the Business Scenario</li>
-                        <li>Choosing the Right Visuals</li>
-                        <li>Creating Effective Visuals</li>
-                        <li>Communicating Insights and Analysis</li>
-                    </ul>
-                    <p>Enrolment Verification Code: yhARCtGpsgt7MZ59f</p>
-                    <p><a href="CERTIFICATE\Data Visualisation TATA.pdf" target="_blank">Verify Certificate</a></p>
-                </div>
-                <div class="training-preview">
-                        <img src="CERTIFICATE\.jpg" alt="Training Preview"
-                            class="training-img">
-                    </div>
-        </div>
-
-                <div class="training-item">
-                    <div class="training-details">
-                    <h3>Coding: Development & Advanced Engineering Job Simulation</h3>
-                    <p><strong>Forage</strong></p>
-                    <p class="date">Completed: January 17th, 2025</p>
-                    <ul>
-                        <li>Object Oriented Programming</li>
-                        <li>Code Refactoring</li>
-                        <li>Continuous Integration</li>
-                        <li>Agile Planning</li>
-                    </ul>
-                    <p>Enrolment Verification Code: xhmDo59ecx99NeNp5</p>
-                    <p><a href="CERTIFICATE\Coding Development & Advanced ACCENTURE.pdf" target="_blank">Verify Certificate</a></p>
-                </div>
-                <div class="training-preview">
-                        <img src="CERTIFICATE\.jpg" alt="Training Preview"
-                            class="training-img">
-                    </div>
-        </div>
-                
-
-                <div class="training-item">
-                    <div class="training-details">
-                    <h3>Python With Web Development Training</h3>
-                    <p><strong>Grras Training Unit</strong></p>
-                    <p class="date">August 10th, 2023 - February 8th, 2024</p>
-                    <p>Certificate No: Grras/214248</p>
-                    <p><a href="CERTIFICATE\jitendra-verma-grras-214248.pdf" target="_blank">View Certificate</a></p>
-                </div>
-                <div class="training-preview">
-                        <img src="CERTIFICATE\jitendra-verma-grras-214248.jpg" alt="Training Preview"
-                            class="training-img">
-                    </div>
-                </div>
-
-                <div class="training-item">
-                    <div class="training-details">
-                        <h3>Web Development With Python Internship</h3>
-                        <p><strong>GIP Technologies Pvt. Ltd.</strong></p>
-                        <p class="date">August 10th, 2023 - November 8th, 2023</p>
+                        <h3>Java Development Internship</h3>
+                        <p class="organization">Cognifyz Technologies</p>
+                        <p class="date"><i class="far fa-calendar-alt"></i> 08/01/2025 - 08/02/2025</p>
                         <ul>
-                            <li>Completed internship in Web Development with Python</li>
-                            <li>Demonstrated skills with self-motivation to learn new skills</li>
-                            <li>Exceeded expectations and completed projects on time</li>
+                            <li>Selected for the position of Java Development Intern.</li>
+                            <li>Will develop robust and scalable applications.</li>
+                            <li>Will contribute to the design and implementation of software solutions.</li>
                         </ul>
-                        <p><a href="CERTIFICATE/gip_internship_cert.pdf" target="_blank">View Certificate</a></p>
+                        <div class="training-links">
+                            <a href="CERTIFICATE\Jitendra Verma JDI OL.pdf" target="_blank"><i
+                                    class="fas fa-file-alt"></i> View Offer Letter</a>
+                            <a href="CERTIFICATE\Jitendra Verma JDI OL.pdf" target="_blank"><i
+                                    class="fas fa-certificate"></i> View Certificate</a>
+                        </div>
                     </div>
                     <div class="training-preview">
-                        <img src="CERTIFICATE\gip_internship_cert.jpg" alt="Training Preview"
+                        <img src="CERTIFICATE\.jpg" alt="Java Development Internship" class="training-img">
+                    </div>
+                </div>
+
+                <div class="training-item card">
+                    <div class="training-details">
+                        <h3>Python With Web Development Training</h3>
+                        <p class="organization">Grras Training Unit</p>
+                        <p class="date"><i class="far fa-calendar-alt"></i> August 10th, 2023 - February 8th, 2024</p>
+                        <p class="certificate-no">Certificate No: Grras/214248</p>
+                        <div class="training-links">
+                            <a href="CERTIFICATE\jitendra-verma-grras-214248.pdf" target="_blank"><i
+                                    class="fas fa-certificate"></i> View Certificate</a>
+                        </div>
+                    </div>
+                    <div class="training-preview">
+                        <img src="CERTIFICATE\jitendra-verma-grras-214248.jpg" alt="Python Web Dev Training"
                             class="training-img">
                     </div>
                 </div>
 
-                <div class="training-item">
+                <div class="training-item card">
+                    <div class="training-details">
+                        <h3>Web Development With Python Internship</h3>
+                        <p class="organization">GIP Technologies Pvt. Ltd.</p>
+                        <p class="date"><i class="far fa-calendar-alt"></i> August 10th, 2023 - November 8th, 2023</p>
+                        <ul>
+                            <li>Completed internship in Web Development with Python.</li>
+                            <li>Demonstrated skills with self-motivation to learn new skills.</li>
+                            <li>Exceeded expectations and completed projects on time.</li>
+                        </ul>
+                        <div class="training-links">
+                            <a href="CERTIFICATE/gip_internship_cert.pdf" target="_blank"><i
+                                    class="fas fa-certificate"></i> View Certificate</a>
+                        </div>
+                    </div>
+                    <div class="training-preview">
+                        <img src="CERTIFICATE\gip_internship_cert.jpg" alt="GIP Internship" class="training-img">
+                    </div>
+                </div>
+
+                <div class="training-item card">
                     <div class="training-details">
                         <h3>Python Programming Training</h3>
                         <p class="organization">Grras Training Unit</p>
-                        <p class="date">August 10th, 2023 - November 8th, 2023</p>
-                        <p class="certificate">Certificate No: Grras/209356</p>
-                        <p><a href="CERTIFICATE\jitendra-verma--grras-209356.pdf" target="_blank">View Certificate</a>
-                        </p>
+                        <p class="date"><i class="far fa-calendar-alt"></i> August 10th, 2023 - November 8th, 2023</p>
+                        <p class="certificate-no">Certificate No: Grras/209356</p>
+                        <div class="training-links">
+                            <a href="CERTIFICATE\jitendra-verma--grras-209356.pdf" target="_blank"><i
+                                    class="fas fa-certificate"></i> View Certificate</a>
+                        </div>
                     </div>
                     <div class="training-preview">
-                        <img src="CERTIFICATE\jitendra-verma--grras-209356.jpg" alt="Training Preview"
+                        <img src="CERTIFICATE\jitendra-verma--grras-209356.jpg" alt="Python Programming Training"
                             class="training-img">
                     </div>
                 </div>
 
-                <div class="training-item">
+                <div class="training-item card">
                     <div class="training-details">
-                    <h3>One Month In-House Training on HTML & CSS</h3>
-                    <p><strong>Modi Institute of Technology, Kota</strong></p>
-                    <p class="date">August 17th, 2022 - September 16th, 2022</p>
-                    <ul>
-                        <li>Hypertext Markup Language (HTML)</li>
-                        <li>Cascading Style Sheets (CSS)</li>
-                    </ul>
-                    <p><a href="CERTIFICATE\HTML&CSS MIT.pdf" target="_blank">Verify Certificate</a></p>
+                        <h3>One Month In-House Training on HTML & CSS</h3>
+                        <p class="organization">Modi Institute of Technology, Kota</p>
+                        <p class="date"><i class="far fa-calendar-alt"></i> August 17th, 2022 - September 16th, 2022</p>
+                        <ul>
+                            <li>Hypertext Markup Language (HTML)</li>
+                            <li>Cascading Style Sheets (CSS)</li>
+                        </ul>
+                        <div class="training-links">
+                            <a href="CERTIFICATE\HTML&CSS MIT.pdf" target="_blank"><i class="fas fa-certificate"></i>
+                                Verify Certificate</a>
+                        </div>
+                    </div>
+                    <div class="training-preview">
+                        <img src="CERTIFICATE\HTML&CSS MIT.jpg" alt="HTML & CSS Training" class="training-img">
+                    </div>
                 </div>
-                <div class="training-preview">
-                        <img src="CERTIFICATE\HTML&CSS MIT.jpg" alt="Training Preview"
-                            class="training-img">
-                    </div></div>
+
+                <div class="training-item card">
+                    <div class="training-details">
+                        <h3>Solutions Architecture Job Simulation</h3>
+                        <p class="organization">Forage</p>
+                        <p class="date"><i class="far fa-calendar-alt"></i> Completed: January 18th, 2025</p>
+                        <ul>
+                            <li>Designing a simple, scalable, hosting architecture.</li>
+                        </ul>
+                        <p class="verification-code">Enrolment Verification Code: JsrnJLoRhGyZh6ay6</p>
+                        <div class="training-links">
+                            <a href="CERTIFICATE\Solutions Architecture Job Simulation AWS.pdf" target="_blank"><i
+                                    class="fas fa-certificate"></i> Verify Certificate</a>
+                        </div>
+                    </div>
+                    <div class="training-preview">
+                        <img src="CERTIFICATE\.jpg" alt="Solutions Architecture Simulation" class="training-img">
+                    </div>
+                </div>
+
+                <div class="training-item card">
+                    <div class="training-details">
+                        <h3>Data Visualisation: Empowering Business with Effective Insights</h3>
+                        <p class="organization">Forage</p>
+                        <p class="date"><i class="far fa-calendar-alt"></i> Completed: January 17th, 2025</p>
+                        <ul>
+                            <li>Framing the Business Scenario</li>
+                            <li>Choosing the Right Visuals</li>
+                            <li>Creating Effective Visuals</li>
+                            <li>Communicating Insights and Analysis</li>
+                        </ul>
+                        <p class="verification-code">Enrolment Verification Code: yhARCtGpsgt7MZ59f</p>
+                        <div class="training-links">
+                            <a href="CERTIFICATE\Data Visualisation TATA.pdf" target="_blank"><i
+                                    class="fas fa-certificate"></i> Verify Certificate</a>
+                        </div>
+                    </div>
+                    <div class="training-preview">
+                        <img src="CERTIFICATE\.jpg" alt="Data Visualization Training" class="training-img">
+                    </div>
+                </div>
+
+                <div class="training-item card">
+                    <div class="training-details">
+                        <h3>Coding: Development & Advanced Engineering Job Simulation</h3>
+                        <p class="organization">Forage</p>
+                        <p class="date"><i class="far fa-calendar-alt"></i> Completed: January 17th, 2025</p>
+                        <ul>
+                            <li>Object Oriented Programming</li>
+                            <li>Code Refactoring</li>
+                            <li>Continuous Integration</li>
+                            <li>Agile Planning</li>
+                        </ul>
+                        <p class="verification-code">Enrolment Verification Code: xhmDo59ecx99NeNp5</p>
+                        <div class="training-links">
+                            <a href="CERTIFICATE\Coding Development & Advanced ACCENTURE.pdf" target="_blank"><i
+                                    class="fas fa-certificate"></i> Verify Certificate</a>
+                        </div>
+                    </div>
+                    <div class="training-preview">
+                        <img src="CERTIFICATE\.jpg" alt="Coding Simulation" class="training-img">
+                    </div>
+                </div>
+
+
+
             </section>
 
             <section id="projects" class="section">
                 <h2>Key Projects</h2>
                 <div class="project-grid">
-                    <div class="project-item">
+                    <div class="project-item card">
                         <h3>Bank Management System</h3>
-                        <p><strong>Technologies:</strong> Python, Java, SQL</p>
+                        <p class="technologies"><strong>Technologies:</strong> Python, Java, SQL</p>
                         <ul>
-                            <li>Developed a robust application to manage banking operations, including account creation,
-                                deposits, withdrawals, and transaction tracking.</li>
+                            <li>Developed a robust application to manage banking operations.</li>
                             <li>Designed secure SQL queries and implemented efficient database handling.</li>
                         </ul>
                     </div>
-                    <div class="project-item">
+                    <div class="project-item card">
                         <h3>AI Voice Tool</h3>
-                        <p><strong>Technologies:</strong> Python, SpeechRecognition, Pyttsx3</p>
+                        <p class="technologies"><strong>Technologies:</strong> Python, SpeechRecognition, Pyttsx3</p>
                         <ul>
                             <li>Created an AI-based voice assistant capable of performing system commands, setting
                                 reminders, and web searches.</li>
                         </ul>
                     </div>
-                    <div class="project-item">
+                    <div class="project-item card">
                         <h3>Data Visualization</h3>
-                        <p><strong>Technologies:</strong> Python, pandas, matplotlib, seaborn</p>
+                        <p class="technologies"><strong>Technologies:</strong> Python, pandas, matplotlib, seaborn</p>
                         <ul>
                             <li>Analyzed complex datasets and visualized trends to aid decision-making.</li>
                         </ul>
                     </div>
-                    <div class="project-item">
+                    <div class="project-item card">
                         <h3>Portfolio Website</h3>
-                        <p><strong>Technologies:</strong> Flask, HTML, CSS, JavaScript</p>
+                        <p class="technologies"><strong>Technologies:</strong> Flask, HTML, CSS, JavaScript</p>
                         <ul>
                             <li>Designed and developed a responsive personal portfolio website to showcase skills and
                                 projects.</li>
                         </ul>
                     </div>
-                    <div class="project-item">
+                    <div class="project-item card">
                         <h3>Smart Helmet (IoT Team Project)</h3>
-                        <p><strong>Technologies:</strong> IoT, Sensors, Microcontrollers</p>
+                        <p class="technologies"><strong>Technologies:</strong> IoT, Sensors, Microcontrollers</p>
                         <ul>
-                            <li>Contributed to the structural design of a helmet with IoT-enabled features, enhancing
-                                user safety and communication in hazardous environments.</li>
+                            <li>Contributed to the structural design of a helmet with IoT-enabled features.</li>
                         </ul>
                     </div>
-                    <div class="project-item">
+                    <div class="project-item card">
                         <h3>Google Play Store Data Manipulation</h3>
-                        <p><strong>Technologies:</strong> Python, google_play_scraper, pandas</p>
+                        <p class="technologies"><strong>Technologies:</strong> Python, google_play_scraper, pandas</p>
                         <ul>
                             <li>Scraped, cleaned, and analyzed app data for trends and actionable insights.</li>
                         </ul>
                     </div>
-                    <div class="project-item">
+                    <div class="project-item card">
+                        <h3>Social Media Application (Final Year Group Project)</h3>
+                        <p class="technologies"><strong>Technologies:</strong> MongoDB, React JS</p>
+                        <ul>
+                            <li>Developed a social media application as a final year group project.</li>
+                        </ul>
+                    </div>
+                    <div class="project-item card">
                         <h3>JavaScript-Based Games</h3>
                         <ul>
                             <li>Tic Tac Toe Game: Created an interactive game with a simple UI.</li>
