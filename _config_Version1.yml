@@ -1,0 +1,37 @@
+title: "RESUME"
+description: "Personal resume site powered by Jekyll"
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://jitendravermaer.github.io/RESUME" # your GitHub Pages URL
+theme: minima
+
+# Author settings
+author:
+  name: "Jitendra Verma"
+  email: "your-email@example.com"
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+
+# Exclude these files and folders from the build
+exclude:
+  - node_modules
+  - vendor
+  - README.md
+
+# Collections (if you want to add sections like projects, experience, etc.)
+collections:
+  experience:
+    output: true
+  projects:
+    output: true
+
+# Social links (customize these as needed)
+social_links:
+  github: jitendravermaer
+  linkedin: your-linkedin-username
+
+# Plugins (if you want to use any Jekyll plugins)
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
