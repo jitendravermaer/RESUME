@@ -960,3 +960,401 @@ footer {
     }
 
 }
+
+/* =====================================================
+   HERO BUTTONS
+===================================================== */
+
+.hero-actions {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+
+    margin-top: 2rem;
+}
+
+
+.btn {
+    display: inline-flex;
+
+    align-items: center;
+
+    gap: 10px;
+
+    padding: 0.85rem 1.5rem;
+
+    border-radius: 10px;
+
+    font-weight: 600;
+
+    transition: all 0.3s ease;
+}
+
+
+.btn-primary {
+    background: #ffffff;
+
+    color: #2563eb;
+}
+
+
+.btn-primary:hover {
+    background: #e2e8f0;
+
+    color: #1d4ed8;
+
+    transform: translateY(-3px);
+}
+
+
+.btn-outline {
+    border: 1px solid rgba(255, 255, 255, 0.4);
+
+    color: #ffffff;
+}
+
+
+.btn-outline:hover {
+    background: #ffffff;
+
+    color: #2563eb;
+
+    transform: translateY(-3px);
+}
+
+
+/* =====================================================
+   ABOUT SECTION
+===================================================== */
+
+.about-content {
+    display: flex;
+
+    align-items: center;
+
+    gap: 2rem;
+}
+
+
+.about-icon {
+    min-width: 100px;
+
+    height: 100px;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    background: linear-gradient(
+        135deg,
+        #2563eb,
+        #7c3aed
+    );
+
+    border-radius: 20px;
+
+    color: #ffffff;
+
+    font-size: 2.5rem;
+
+    box-shadow: 0 10px 30px rgba(37, 99, 235, 0.25);
+}
+
+
+.about-text p {
+    color: #475569;
+
+    margin-bottom: 1rem;
+
+    font-size: 1.05rem;
+}
+
+
+/* =====================================================
+   SKILL TAGS
+===================================================== */
+
+.skill-tags {
+    display: flex;
+
+    flex-wrap: wrap;
+
+    gap: 0.7rem;
+}
+
+
+.skill-tags span {
+    padding: 0.5rem 0.9rem;
+
+    background: #eff6ff;
+
+    color: #2563eb;
+
+    border-radius: 30px;
+
+    font-size: 0.85rem;
+
+    font-weight: 600;
+
+    border: 1px solid #dbeafe;
+
+    transition: all 0.3s ease;
+}
+
+
+.skill-tags span:hover {
+    background: linear-gradient(
+        135deg,
+        #2563eb,
+        #7c3aed
+    );
+
+    color: #ffffff;
+
+    transform: translateY(-3px);
+}
+
+
+/* =====================================================
+   PROJECT TECHNOLOGIES
+===================================================== */
+
+.project-icon {
+    width: 55px;
+
+    height: 55px;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    background: #eff6ff;
+
+    color: #2563eb;
+
+    border-radius: 14px;
+
+    font-size: 1.5rem;
+
+    margin-bottom: 1.2rem;
+}
+
+
+.project-tech {
+    display: flex;
+
+    flex-wrap: wrap;
+
+    gap: 0.5rem;
+
+    margin-bottom: 1.2rem;
+}
+
+
+.project-tech span {
+    padding: 0.35rem 0.7rem;
+
+    background: #f1f5f9;
+
+    color: #475569;
+
+    border-radius: 6px;
+
+    font-size: 0.8rem;
+
+    font-weight: 600;
+}
+
+
+/* =====================================================
+   CURRENT STATUS
+===================================================== */
+
+.status-section {
+    background:
+        linear-gradient(
+            135deg,
+            #0f172a,
+            #1e293b
+        );
+
+    color: #ffffff;
+
+    border: none;
+}
+
+
+.status-content {
+    display: flex;
+
+    align-items: center;
+
+    gap: 2rem;
+}
+
+
+.status-icon {
+    width: 90px;
+
+    height: 90px;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    background: linear-gradient(
+        135deg,
+        #2563eb,
+        #7c3aed
+    );
+
+    border-radius: 20px;
+
+    font-size: 2.5rem;
+}
+
+
+.status-section h2 {
+    color: #ffffff;
+
+    margin-bottom: 0.5rem;
+}
+
+
+.status-section h2::after {
+    display: none;
+}
+
+
+.status-section p {
+    color: #cbd5e1;
+
+    font-size: 1rem;
+}
+
+
+.status-label {
+    color: #60a5fa;
+
+    font-size: 0.8rem;
+
+    font-weight: 700;
+
+    letter-spacing: 1.5px;
+}
+
+
+.status-badge {
+    display: inline-flex;
+
+    align-items: center;
+
+    gap: 7px;
+
+    margin-top: 1rem;
+
+    padding: 0.5rem 1rem;
+
+    background: rgba(16, 185, 129, 0.15);
+
+    color: #6ee7b7;
+
+    border-radius: 30px;
+
+    font-size: 0.85rem;
+}
+
+
+.status-badge i {
+    font-size: 0.6rem;
+
+    color: #10b981;
+}
+
+
+/* =====================================================
+   WHAT I DO / SERVICES
+===================================================== */
+
+.services-grid {
+    display: grid;
+
+    grid-template-columns:
+        repeat(auto-fit, minmax(240px, 1fr));
+
+    gap: 1.5rem;
+}
+
+
+.service-card {
+    text-align: center;
+}
+
+
+.service-icon {
+    width: 70px;
+
+    height: 70px;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    margin: 0 auto 1.2rem;
+
+    border-radius: 18px;
+
+    background: linear-gradient(
+        135deg,
+        #2563eb,
+        #7c3aed
+    );
+
+    color: #ffffff;
+
+    font-size: 1.8rem;
+}
+
+
+.service-card p {
+    color: #64748b;
+}
+
+
+/* =====================================================
+   RESPONSIVE NEW SECTIONS
+===================================================== */
+
+@media (max-width: 768px) {
+
+    .about-content,
+    .status-content {
+        flex-direction: column;
+
+        align-items: flex-start;
+    }
+
+
+    .hero-actions {
+        flex-direction: column;
+
+        align-items: center;
+    }
+
+
+    .btn {
+        width: 220px;
+
+        justify-content: center;
+    }
+
+}
